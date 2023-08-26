@@ -1,0 +1,25 @@
+{
+  "useOtherComingJobs": "",
+  "fileName": "bigStandardDeviation-LWL",
+  "comingJobsXaxis": 30,
+  "SimulateXaxis": 30,
+  "FrequencyOfSampling": 5,
+  "ifScreenShot": 0,
+  "system": {
+    "jobNumber": 3000,
+    "comingJobs": "M|G|k",
+    "meanInterArrivalTime": 100,
+    "interArrivalTimeStandardDeviation": 4,
+    "meanJobsSize": 90,
+    "jobsSizeStandardDeviation": 20,
+    "serverNumber": 4,
+    "taskAssignment": {
+      "policy": "JSQ",
+      "SITAPolicy": [0,2,3,7]
+    },
+    "schedulingPolicy": {
+      "policy":"FCFS",
+      "PSTime": 10
+    }
+  }
+}
